@@ -1,4 +1,4 @@
-package com.zwt.coupon;
+package com.zwt.coupon.register;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
