@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 public class TokenFilter extends AbstractPreZuulFilter{
     private static final String ERROR_MSG = "error: token is empty";
-    private static final String TAG = "[TokenFilter]";
+    private static final String TAG = "[aTang][TokenFilter]";
 
     @Override
     protected Object cRun() {

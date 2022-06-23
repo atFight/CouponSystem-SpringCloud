@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 @Slf4j
 @Component
 public class AccessLogFilter extends AbstractPostZuulFilter{
-    private static final String TAG = "[AccessLogFilter]";
+    private static final String TAG = "[aTang][AccessLogFilter]";
 
     @Override
     protected Object cRun() {

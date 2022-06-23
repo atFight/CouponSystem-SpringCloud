@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 @Component
 @SuppressWarnings("all")
 public class RateLimiterFilter extends AbstractPreZuulFilter{
-    private static final String TAG = "[RateLimiterFilter]";
+    private static final String TAG = "[aTang][RateLimiterFilter]";
 
     /* 每秒可以获取2个令牌 */
     RateLimiter limiter = RateLimiter.create(2.0);
